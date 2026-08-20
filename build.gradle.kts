@@ -26,7 +26,9 @@ repositories {
         mavenNeoforgedMeta()
         mavenFabric()
     }
-    maven{url = "https://libraries.minecraft.net/"}
+    maven {
+        url = uri("https://libraries.minecraft.net/")
+    }
     maven(url = "https://maven.teamresourceful.com/repository/maven-public/")
     maven(url = "https://maven.firstdarkdev.xyz/snapshots")
     maven(url = "https://maven.shedaniel.me")
